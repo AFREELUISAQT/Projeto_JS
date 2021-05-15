@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+nav {
+    background: black 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    margin-right: 0;
+    
+}
+
+nav img {
+    margin-right: 10rem;
+    width: 3rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul li {
+    margin-left: 2px;
+}
+
+nav a {
+  
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(156, 211, 234);
+    font-size:  15px;
+    font-weight: bold;
+    padding: 0.5em 1.5em; 
+    
+}
+
+nav a:hover { 
+    background-color:rgb(156, 211, 234);
+    border-radius: 0.4em;
+    color: black;
+    transition: color 0.6s;
+}
+.banner {   
+    width: 100%;
+    height: 13rem;
+    display: flex;
+}
+
+.foto {
+    width: 360px;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.absolut {
+    position: absolute;
+    top:100px;
+    left:560px;  
+    left: 10%;
+}
+
+.midias {
+    padding-left: 68px;
+}
+
+.midias img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    justify-content: center;
+    object-fit: cover;
+}
+.quem-sou {
+    padding-left: 40%;
+   
+}
+
+h1 {
+    margin-top: 40px;
+    width: 520px;
+    height: 46px;
+    text-align: right;
+    font-size: 3rem;
+    letter-spacing: 0px;
+    color: #434343;
+    margin-bottom: 5px;
+}
+
+.quem-sou h2 {
+    width: 520px;
+    height: 46px;
+    text-align: right;
+    font-size: 2rem;
+    letter-spacing: 0px;
+    color: #434343;
+    padding-bottom: 60px;
+}
+
+.quem-sou h3 {
+    width: 520px;
+    height: 40px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+    color: #434343;
+}
+
+.div-quem-sou p {
+    width: 518px;
+    height: 400px;
+    text-align: right;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #434343;
+}
+
+.formacao {
+    background: #DEDEDE 0% 0% no-repeat padding-box;
+    padding-left: 174px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 34px;
+    padding-left: 20%;
+}
+
+.formacao h2 {
+    width: 600px;
+    height: 120px;
+    text-align: left;
+    font-size: 3rem;
+    letter-spacing: 0px;
+    font-weight: bold;
+    color: #434343;
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+
+.dados {
+    padding-left: 25px;
+    padding-bottom: 34px;
+    margin-top: -1px;
+    width: 100%;
+    height: 600px;
+}
+
+.div-composto {
+    display: flex;
+}
+
+.formacao span {
+    width: 8px;
+    height: 70px;
+    background: #434343 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    margin: 8px;
+}
+
+.dados h5 {
+    width: 109px;
+    height: 20px;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #434343;
+}
+
+.dados h3 {
+    width: 844px;
+    height: 31px;
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #434343;
+}
+
+.dados h4 { 
+    left: 582px;
+    width: 558px;
+    height: 31px;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #434343;
+    top: 1129px;
+}
+
+.experie {
+    margin: 0;
+    width: 100%;
+    height: 850px;
+    background: #434343 0% 0% no-repeat padding-box;
+    padding-left: 174px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+}
+
+.experie h2 {
+    width: 600px;
+    height: 120px;
+    text-align: left;
+    font-size: 3rem;
+    letter-spacing: 0px;
+    font-weight: bold;
+    color: #DEDEDE;
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+
+.experie span {
+    width: 8px;
+    height: 210px;
+    background: #DEDEDE 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    margin: 8px;
+}
+
+.div-experie {
+    padding-left: 25px;
+    padding-bottom: 34px;
+    margin-top: -1px;
+    width: 100%;
+    height: 600px;
+}
+.div-experie h5 {
+    width: 109px;
+    height: 20px;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #DEDEDE;
+}
+
+.div-experie h3 {
+    width: 844px;
+    height: 31px;
+    text-align: left;
+    font: 21px/34px Segoe UI;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #DEDEDE;
+}
+
+.div-experie h4 { 
+    left: 582px;
+    width: 600px;
+    height: 31px;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #DEDEDE;
+    top: 1129px;
+}
+
+#traba {
+    width: 100%;
+    height: 500px;
+    background: #DEDEDE;
+}
+
+.traba {
+    padding-left: 20%;
+    height: auto;
+}
+
+article {
+    width: 865px;
+    height: 353px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.traba h2 {
+    width: 600px;
+    height: 120px;
+    text-align: left;
+    font-size: 3rem;
+    letter-spacing: 0px;
+    font-weight: bold;
+    color: #434343;
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+
+.div-traba {
+    width: 260px;
+    background: #DEDEDE 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 10px #434343;
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 335px;
+}
+
+.div-traba .b {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-traba {
+    width: 240px;
+    height: 129px;
+    padding-top: 10px;
+    border-radius: 10ypx;
+}
+
+.div-traba h2 {
+    width: 240px;
+    height: 28px;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #434343;
+    padding-top: 0;
+}
+
+.div-traba p {
+    height: 76px;
+    text-align: left;
+    font-size: 1rem;
+    letter-spacing: 0px;
+    color: #434343;
+    width: 220px;
+}
+    
+button {
+    margin-top: 20px;
+    width: 118px;
+    height: 34px;
+    background: #434343 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    color: #DEDEDE;
+    align-items: center;
+    margin-right:auto;
+    margin-left:auto;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contata {
+    height: 750px;
+    background: #000000 0% 0% no-repeat padding-box;
+    padding-left: 174px;
+    padding-top: 34px;
+    padding-left: 20%;
+}
+
+.div-contata p {
+    padding: 4px;
+    color: #DEDEDE;
+    width: 60%;
+}
+
+.contata h2 {
+    width: 300px;
+    height: 28px;
+    text-align: left;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #DEDEDE;
+    padding-top: 0;
+    padding-bottom: 70px;
+}
+
+label {
+    color: #ffffff;
+}
+
+input {
+    height: 34px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #434343;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 398px;
+}
+
+textarea {
+    width: 398px;
+    height: 133px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #434343;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+ 
+form {
+    display:flex;
+    flex-direction: column;
+    width: 298px;
+}
+
+.btn-enviar {
+    margin-top: -5px;
+    margin-left: 0;
+    width: 118px;
+    height: 34px;
+    background: #434343 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    color: #DEDEDE;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.logo-lg {
+    top: 166rem;
+    left:920px; 
+    position: absolute;
+}
+
+footer {
+    background:black;
+    color: rgb(166, 166, 166);
+    width: auto;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
