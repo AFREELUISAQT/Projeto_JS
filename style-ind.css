@@ -258,7 +258,6 @@ h1 {
     width: 844px;
     height: 31px;
     text-align: left;
-    font: 21px/34px Segoe UI;
     font-weight: bold;
     letter-spacing: 0px;
     color: #DEDEDE;
@@ -319,6 +318,10 @@ article {
 .div-traba .b {
     display: flex;
     justify-content: space-evenly;
+}
+
+.div-traba a {
+    text-decoration: none;
 }
 
 .img-traba {
@@ -431,11 +434,6 @@ form {
     font-weight: bold;
 }
 
-.logo-lg {
-    top: 166rem;
-    left:920px; 
-    position: absolute;
-}
 
 footer {
     background:black;

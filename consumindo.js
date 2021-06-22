@@ -1,26 +1,50 @@
 
-// ---- S I T E   E M   C O N S T R U Ç Ã O ----
+function consumindo() {
+  
+  fetch('https://api.github.com/users/afreeluisaqt/repos')
+  .then(response => response.json())
+  .then(data => {
 
-async function start() {
-  const api = async () => {
-    const response = await fetch('https://api.github.com/users/afreeluisaqt/repos');
-    const data = await response.json();
-    return data;
-  }
-  const content = document.getElementById('content')
-  const data = await api();
+   /*  var td = document.createElement("td");
+    td.innerHTML = `${data.id}`
 
-  console.table(data);
+    document.getElementById("conte").appendChild(td) */
 
-  content.innerHTML = `
+
+    let idrepo = document.getElementById('idrepo')
+    let nomeRepo = document.getElementById('nomeRepo')
+    let linkRepo = document.getElementById('linkRepo')
+
+    data.forEach(data => {
+      document.getElementById('idrepo').innerHTML +=  "<td/>" +"<p/>" + data.id;
+      document.getElementById('nomeRepo').innerHTML +=  "<td/>" + "<p/>" + data.name;
+      document.getElementById('linkRepo').innerHTML +=   "<td/>" + "<p/>" + data.html_url;
+     
+    });
     
-    <tr>
-      <td scope="row">${data.id}</td>
-      <td>${data.name}</td>
-      <td>${data.html_url}</td>
-  </tr> 
+    // content.innerHTML =
+     
+    //   ` <tr>
+    //     <td>${data.id}</td>
+    //     <td>${data.name}</td>
+    //     <td>${data.html_url}</td>
+    //     </tr> 
+
+    //   `;
     
-    `
+    
+    console.log(data)
+    
+    
+  })
+  
+
+    
+  
+.catch(e => console.log('Deu Erro:' + e))
+  
+  
+
 }
 
-start();
+consumindo(); 
